@@ -1,0 +1,40 @@
+{
+  "name": "RedKit",
+  "version": "0.1.0",
+  "summary": "PetThoughts Memory module",
+  "description": "PetThoughts Memory module.",
+  "homepage": "https://github.com/MuZiLee/RedKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MuZuLee": "1919345806@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MuZiLee/RedKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "4.2",
+    "5"
+  ],
+  "source_files": "RedKit/Classes/**/*.swift",
+  "resources": [
+    "RedKit/Assets/**/*.xcassets",
+    "RedKit/Classes/**/*.storyboard",
+    "RedKit/Assets/animations"
+  ],
+  "dependencies": {
+    "MJRefresh": [
+      "~> 3.5.0"
+    ],
+    "MBProgressHUD": [
+      "~> 1.2.0"
+    ]
+  },
+  "swift_version": "5"
+}
